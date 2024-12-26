@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxide Financials - Expert Financial Advisory Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oxide Financials</h1>
+            <p>Your Trusted Partner in Financial Growth</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At Oxide Financials, we specialize in providing tailored financial advisory services to help individuals and businesses achieve their financial goals. Our expertise spans investment strategies, wealth management, and financial planning.</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>
+                        <h3>Investment Planning</h3>
+                        <p>Customized investment strategies to maximize returns and minimize risk.</p>
+                    </li>
+                    <li>
+                        <h3>Wealth Management</h3>
+                        <p>Comprehensive wealth solutions for long-term financial security.</p>
+                    </li>
+                    <li>
+                        <h3>Retirement Planning</h3>
+                        <p>Secure your future with personalized retirement plans.</p>
+                    </li>
+                    <li>
+                        <h3>Tax Optimization</h3>
+                        <p>Strategic advice to reduce tax liabilities and enhance savings.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <p>Our experienced advisors bring a wealth of knowledge to guide your financial journey.</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="advisor1.jpg" alt="Advisor 1">
+                        <h3>Jane Doe</h3>
+                        <p>Senior Financial Advisor</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="advisor2.jpg" alt="Advisor 2">
+                        <h3>John Smith</h3>
+                        <p>Investment Specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you. Get in touch to start planning your financial future.</p>
+                <p>Email: <a href="mailto:lekan.aayeni@gmail.com">lekan.aayeni@gmail.com</a></p>
+                <p>Phone: <a href="tel:+2348163307227">08163307227</a></p>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oxide Financials. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
